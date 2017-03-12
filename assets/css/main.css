@@ -749,7 +749,7 @@
 	body {
 		background-image: url("images/overlay.png"), url("images/bg.jpg");
 		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background-size: auto 100%;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
 		color: #777777;
@@ -1504,7 +1504,7 @@
 
 				#nav a {
 					font-size: 2em;
-					opacity: 0.5;
+					opacity: 0.8;
 					outline: 0;
 					width: 1.5em;
 					height: 1.5em;
