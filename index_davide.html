@@ -1,0 +1,310 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>davideabati.info</title>
+  
+  <meta name="author" content="Jon Barron">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Davide Abati</name>
+              </p>
+			   <p>
+                I am a senior engineer at <a href="https://www.qualcomm.com/invention/artificial-intelligence/ai-research">Qualcomm AI Research</a>,  working on Deep Learning for Computer Vision.
+              </p>
+              <p>I got my Ph.D. at <a href="http://imagelab.ing.unimore.it/imagelab/index.asp">AimageLab</a>, at the University of Modena and Reggio Emilia, in Italy. I worked under the supervision of <a href="http://imagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Prof. Rita Cucchiara</a>.
+              </p>
+ 
+              <p style="text-align:center">
+                <a href="mailto:davideabati@outlook.com">Email</a> &nbsp/&nbsp
+                <a href="data/DavideAbati-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=D9UXjKgAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/DavideA">Github</a> &nbsp/&nbsp
+                <a href="https://twitter.com/davideabati">Twitter</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/davideabati/">LinkedIn</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/DavideAbati.jpeg" class="hoverZoomLink"/>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+			  The first part of my Ph.D. has been devoted to computer vision for automotive applications. More recently I developed a strong interest in deep generative models, and their application in out-of-distribution detection and continual learning. Representative papers are <span class="highlight">highlighted</span>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		<tr onmouseout="der_stop()" onmouseover="der_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+			                  <img class="two" src='images/der.jpg'>
+
+                <div class="two" id='der_image'><img src='images/der.gif'></div>
+              </div>
+              <script type="text/javascript">
+                function der_start() {
+                  document.getElementById('der_image').style.opacity = "1";
+                }
+
+                function der_stop() {
+                  document.getElementById('der_image').style.opacity = "0";
+                }
+                der_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2004.07211">
+                <papertitle>Dark Experience for General Continual Learning</papertitle>
+              </a>
+              <br>
+			  Pietro Buzzega,
+			  Matteo Boschini,
+			  Angelo Porrello,
+              <strong>Davide Abati</strong>,
+			  Simone Calderara
+              <br>
+              <em>NeurIPS</em>, 2020
+		<br>
+              <a href="https://arxiv.org/abs/2004.07211">arXiv</a> &nbsp/&nbsp
+              <a href="data/der.bib">bibtex</a> &nbsp/&nbsp
+			  <a href="">code</a>
+              <br>
+              <p></p>
+              <p>We tackle general continual learning, where an agent is required to learn multiple tasks in a sequence under minimal assumptions about their nature. 
+			     We run an extensive comparison of many existing methods and introduce a simple model based on knowledge distillation outperforming all of them.</p>
+            </td>
+          </tr>
+		<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='continual_image'><img src='images/continual.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Abati_Conditional_Channel_Gated_Networks_for_Task-Aware_Continual_Learning_CVPR_2020_paper.pdf">
+                <papertitle>Conditional Channel Gated Networks for Task-Aware Continual Learning</papertitle>
+              </a>
+              <br>
+              <strong>Davide Abati</strong>,
+	  	<a href="https://jmtomczak.github.io/">Jakub Tomczak</a>,
+		    Tijmen Blankevoort,
+		    Simone Calderara,
+		    Rita Cucchiara,
+	  	<a href="http://babakint.com/">Babak Ehteshami Bejnordi</a>
+              <br>
+              <em>CVPR</em>, 2020 <font color="red"><strong>(Oral presentation)</strong></font>
+		<br>
+              <a href="https://arxiv.org/abs/2004.00070">arXiv</a> &nbsp/&nbsp
+              <a href="data/tacl.bib">bibtex</a> &nbsp/&nbsp
+			  <a href="https://www.youtube.com/watch?v=V76ZsWUCPfo&feature=youtu.be">talk</a>
+              <br>
+              <p></p>
+              <p>A continual learning model based on the framework of conditional computation.</p>
+            </td>
+          </tr>
+		<tr bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='lsa_image'><img src='images/lsa.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Abati_Latent_Space_Autoregression_for_Novelty_Detection_CVPR_2019_paper.pdf">
+                <papertitle>Latent Space Autoregression for Novelty Detection</papertitle>
+              </a>
+              <br>
+              <strong>Davide Abati</strong>,
+			  Angelo Porrello,
+			  Simone Calderara,
+			  Rita Cucchiara
+              <br>
+              <em>CVPR</em>, 2019
+              <br>
+              <a href="https://arxiv.org/abs/1807.01653">arXiv</a> &nbsp/&nbsp
+              <a href="https://github.com/aimagelab/novelty-detection">code</a> &nbsp/&nbsp
+              <a href="data/lsa_poster.pdf">poster</a> &nbsp/&nbsp
+			  <a href="data/lsa.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>Applying autoregression in an autoencoder's latent space increases its out-of-distribution detection capabilities.</p>
+            </td>
+          </tr>
+		  <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ccp_image'><img src='images/ccp.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://proceedings.mlr.press/v89/porrello19a/porrello19a.pdf">
+                <papertitle>Classifying Signals on Irregular Domains via Convolutional Cluster Pooling</papertitle>
+              </a>
+              <br>
+			  Angelo Porrello,
+              <strong>Davide Abati</strong>,
+			  Simone Calderara,
+			  Rita Cucchiara
+              <br>
+              <em>AISTATS</em>, 2019
+              <br>
+              <a href="https://arxiv.org/abs/1902.04850">arXiv</a> &nbsp/&nbsp
+              <a href="data/ccp_poster.pdf">poster</a> &nbsp/&nbsp
+			  <a href="data/ccp.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>We propose a local graph operator resembling convolution as applied in modern neural nets. 
+			  Can be applied on skeletons, documents, images.</p>
+            </td>
+          </tr>
+		  <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ssof_image'><img src='images/ssof.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://imagelab.ing.unimore.it/imagelab/pubblicazioni/ssof-its2018.pdf">
+                <papertitle>Self-Supervised Optical Flow Estimation by Projective Bootstrap</papertitle>
+              </a>
+              <br>
+			  Stefano Alletto,
+              <strong>Davide Abati</strong>,
+			  Simone Calderara,
+			  Rita Cucchiara,
+			  Luca Rigazio
+              <br>
+              <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2018
+              <br>
+              <a href="https://www.youtube.com/watch?v=3mHd1qbwLNg">video</a> &nbsp/&nbsp
+			  <a href="data/ssof.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>A self-supervised model for optical flow estimation in automotive settings.
+			  The flow field is initialized with the prediction of a single projective matrix.
+			  </p>
+            </td>
+          </tr>
+		<tr bgcolor="#ffffd0">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='dreyeve_image'><img src='images/dreyeve.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8375682">
+                <papertitle>Predicting the Driver's Focus of Attention: the DR(eye)VE Project</papertitle>
+              </a>
+              <br>
+			  <a href="https://andreapalazzi.info/">Andrea Palazzi</a>,
+              <strong>Davide Abati</strong>,
+			  Francesco Solera,
+			  Simone Calderara,
+			  Rita Cucchiara
+              <br>
+              <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>, 2018
+              <br>
+              <a href="https://arxiv.org/abs/1705.03854">arXiv</a> &nbsp/&nbsp
+			  <a href="http://aimagelab.ing.unimore.it/dreyeve">dataset</a> &nbsp/&nbsp
+              <a href="https://github.com/ndrplz/dreyeve">code</a> &nbsp/&nbsp
+              <a href="https://www.youtube.com/watch?v=GKjzOcwoc68">video</a> &nbsp/&nbsp
+			  <a href="data/dreyeve.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>We introduce a dataset of human fixations while driving, and a model to predict them given an urban scene.</p>
+            </td>
+          </tr>
+		  <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='birdseye_image'><img src='images/birdseye.jpg'></div>
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-319-68560-1_21">
+                <papertitle>Learning to Map Vehicles into Bird’s Eye View</papertitle>
+              </a>
+              <br>
+			  <a href="https://andreapalazzi.info/">Andrea Palazzi</a>,
+			  <a href="http://www.guidoborghi.it/">Guido Borghi</a>,
+              <strong>Davide Abati</strong>,
+			  Simone Calderara,
+			  Rita Cucchiara
+              <br>
+              <em>International Conference on Image Analysis and Processing</em>, 2017
+              <br>
+			  <font color="red"><strong>Best paper honorable mention</strong></font>
+			  <br>
+              <a href="https://arxiv.org/abs/1706.08442">arXiv</a> &nbsp/&nbsp
+			  <a href="http://imagelab.ing.unimore.it/imagelab/page.asp?IdPage=19">dataset</a> &nbsp/&nbsp
+              <a href="https://github.com/ndrplz/surround_vehicles_awareness">code</a> &nbsp/&nbsp
+			  <a href="https://www.youtube.com/watch?v=t2mXv9j6LNw">video</a> &nbsp/&nbsp
+			  <a href="data/birdseye.bib">bibtex</a>
+              <br>
+              <p></p>
+              <p>A dataset with matched localization of vehicles from both camera car and birdseye view, created from computer games. And a baseline model for mapping locations across views.</p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+		
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Reviewing Service</heading>
+			<p>
+			  I currently serve as a reviewer for the following journals:
+            </p>
+			<ul>
+				<li><p>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</p></li>
+				<li><p>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</p></li>
+				<li><p>IEEE Transactions on Multimedia (TMM)</p></li>
+				<li><p>IEEE Transactions on Intelligent Transportation Systems (TITS)</p></li>
+				<li><p>ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</p></li>				
+			</ul>
+			</td>
+		</tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Other</heading>
+            <ul>
+				<li><p><a href="https://github.com/ndrplz/ConvLSTM_pytorch">ConvLSTM_pytorch</a> (with ndrplz)</p></li>
+				<li><p><a href="https://github.com/ndrplz/google-drive-downloader">google-drive-downloader</a> (with ndrplz)</p></li>
+				<li><p><a href="https://www.youtube.com/channel/UCGbeqxHxjXUgCk3KS3B64Vw">Sometimes I play guitar</a></p></li>
+		</td>
+		</tr>
+        </tbody></table>
+		
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <a href="https://jonbarron.info/">I like this website.</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
